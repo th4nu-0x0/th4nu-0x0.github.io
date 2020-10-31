@@ -26,3 +26,5 @@ plainwhite:
     - page
   
   search: true
+  
+  html_lang: "en"
