@@ -19,3 +19,8 @@ plainwhite:
       url: "/about"
         
   dark_mode: true
+  
+  condensed_mobile:
+    - home
+    - post
+    - page
