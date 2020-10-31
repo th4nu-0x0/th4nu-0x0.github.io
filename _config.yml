@@ -24,3 +24,5 @@ plainwhite:
     - home
     - post
     - page
+  
+  search: true
