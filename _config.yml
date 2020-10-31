@@ -12,3 +12,10 @@ plainwhite:
     
   plainwhite:
   portfolio_image:  "assets/hacker.svg"
+  
+  plainwhite:
+  navigation:
+    - title: Posts
+      url: "/posts"
+    - title: About Me
+      url: "/about"
