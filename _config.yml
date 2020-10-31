@@ -28,3 +28,6 @@ plainwhite:
   search: true
   
   html_lang: "en"
+
+  plugins:
+    - jekyll-seo-tag
