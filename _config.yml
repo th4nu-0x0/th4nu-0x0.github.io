@@ -19,3 +19,5 @@ plainwhite:
         url: "/posts"
       - title: About Me
         url: "/about"
+
+show_excerpts: true
