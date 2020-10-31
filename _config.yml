@@ -14,7 +14,7 @@ plainwhite:
 
   navigation:
     - title: Posts
-      url: "/posts"
+      url: "/blog"
     - title: About Me
       url: "/about"
         
@@ -31,3 +31,5 @@ plainwhite:
 
   plugins:
     - jekyll-seo-tag
+  
+baseurl: "/blog"
