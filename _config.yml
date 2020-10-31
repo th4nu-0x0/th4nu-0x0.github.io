@@ -9,3 +9,6 @@ plainwhite:
     twitter: th4nu_0x0
     github: th4nu-0x0
     linkedIn:  # format: locale/username
+    
+plainwhite:
+  portfolio_image:  "assets/hacker.svg"
