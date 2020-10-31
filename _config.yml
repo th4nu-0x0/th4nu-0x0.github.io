@@ -19,5 +19,6 @@ plainwhite:
         url: "/posts"
       - title: About Me
         url: "/about"
-
-show_excerpts: true
+        
+  plainwhite:
+    dark_mode: true
