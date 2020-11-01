@@ -31,3 +31,5 @@ plainwhite:
 
   plugins:
     - jekyll-seo-tag
+    
+show_excerpts: true
