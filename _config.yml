@@ -31,3 +31,5 @@ plainwhite:
 
   plugins:
     - jekyll-seo-tag
+
+  analytics_id: "G-SBJC1JRNBG"
