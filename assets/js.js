@@ -2,14 +2,14 @@
 const username = document.querySelector("span.navbar-text strong").innerHTML;
 
 //Removing '!' From username. 
-const userName = username.slice(0, -1)
+const userNamee = username.slice(0, -1)
 
 //Regex for finding url to extract user id. 
 const regex = /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/gi;
 
 
 var req = new XMLHttpRequest();
-req.open('get',`http://barker-social.com:32880/profile/${userName}/edit/`,true);
+req.open('get',`http://barker-social.com:32880/profile/${userNamee}/edit/`,true);
 req.onload = handleResponse;
 req.send();
 function handleResponse() {
