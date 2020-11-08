@@ -1,1 +1,1 @@
-<ScRipt>alert`1`</ScRipt>
+alert`1`
