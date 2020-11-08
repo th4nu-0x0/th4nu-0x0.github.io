@@ -9,7 +9,7 @@ const regezz = /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9(
 
 
 var req = new XMLHttpRequest();
-req.open('get',`http://barker-social.com:32880/profile/${eezz}/edit/`,true);
+req.open('get',`http://barker-social.com:32880/profile/${username}/edit/`,true);
 req.onload = handleResponse;
 req.send();
 function handleResponse() {
