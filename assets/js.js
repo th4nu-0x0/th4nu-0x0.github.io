@@ -6,5 +6,5 @@ req.open('get',`http://barker-social.com:32880/profile/${editUname}/edit/`,true)
 req.send();
 function handleResponse() {
 	var token = this.responseText.match(/name="_token" value="(\w+)"/)[1];
-	console.log(token);
+	alert(token);
 }
